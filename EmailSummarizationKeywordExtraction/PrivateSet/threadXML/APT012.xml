@@ -1,0 +1,129 @@
+<root><thread><filename>APT012.txt</filename><name> hello
+</name><id>APT012</id><email id="1"><date> Tue, Oct 5, 2010 at 2:50 PM
+</date><from> suj &lt;suj@gmail.com&gt;
+</from><to> s &lt;s@email.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_001">Hi Mike,
+</sentence><sentence id="APT012_002">Howdy? Just got my machine due to some scheduling issue.
+</sentence><sentence id="APT012_003">Got a whole bunch of papers to read from my mentor.
+</sentence><sentence id="APT012_004">Looks like I will have loads to do while I am here but she seems like a nice, enthusiastic person.
+</sentence><sentence id="APT012_005">Hope your meeting with Dr. Mitra went well.
+</sentence><sentence id="APT012_006">I came to know of one ML technique in which there is no need to explicitly design features.
+</sentence><sentence id="APT012_007">this is what is primarily used here.
+</sentence><sentence id="APT012_008">i will tell you abt this after learning more.
+</sentence><sentence id="APT012_009">i was totally shocked to think this is possible but it is apparently.
+</sentence><sentence id="APT012_010">more later.
+</sentence><signature></signature></text></email><email id="2"><date> Thu, Oct 7, 2010 at 8:31 AM
+</date><from> s &lt;s@email.com&gt;
+</from><to> suj &lt;suj@gmail.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_011">yes, there are techniques in theory (like representational distortion), but I didn't know there's something in practice.
+</sentence><sentence id="dummy"></sentence><signature></signature></text></email><email id="3"><date> Thu, Oct 7, 2010 at 10:38 AM
+</date><from> suj &lt;suj@gmail.com&gt;
+</from><to> s &lt;s@email.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_012">hey how was your ML presentation.
+</sentence><sentence id="APT012_013">Did you fultooo impress the class :))
+</sentence><signature></signature></text></email><email id="4"><date> Thu, Oct 7, 2010 at 10:53 PM
+</date><from> s &lt;s@email.com&gt;
+</from><to> suj &lt;suj@gmail.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_014">no man..  :(   I prepared it well, but Dan, as always, vanquished me completely.
+</sentence><sentence id="APT012_015">Never felt more embarrassed..  :P
+</sentence><sentence id="APT012_016">I'm not complaining though, because I learnt a lot.
+</sentence><sentence id="APT012_017">Just I have to be more prepared for the next class.  :)
+</sentence><sentence id="APT012_018">How was your first day at NEC ?  
+</sentence><sentence id="APT012_019">Did you get my SMS ?
+</sentence><sentence id="APT012_020">Did you understand the papers ?
+</sentence><sentence id="APT012_021">Just for fun,  I was checking last year ICML and ACL papers.
+</sentence><sentence id="APT012_022">http://www.icml2010.org/abstracts.html
+</sentence><sentence id="APT012_023">http://acl2010.org/accepted_papers.html
+</sentence><sentence id="APT012_024">Most of the matter went way over my head.
+</sentence><sentence id="APT012_025">Looks like we have to go a lot to meet the state-of-the-art research.
+</sentence><sentence id="APT012_026">Still, I'm hopeful.
+</sentence><sentence id="APT012_027">As I told you many times before, I've never lost hope and I'll never do so.
+</sentence><sentence id="APT012_028">And I want the same for you.  :)
+</sentence><signature></signature></text></email><email id="5"><date> Fri, Oct 8, 2010 at 8:14 AM
+</date><from> suj &lt;suj@gmail.com&gt;
+</from><to> s &lt;s@email.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_029">LOL, ok this deserves a phone call.
+</sentence><sentence id="APT012_030">I will try to catch you tonight.
+</sentence><sentence id="APT012_031">Thanks for the featureless learning links as well.
+</sentence><sentence id="APT012_032">We should discuss this sometime.
+</sentence><sentence id="APT012_033">And you are right, we have a long wayto go before catching up with the state-of-the-art ML communities.
+</sentence><sentence id="APT012_034">I am getting the feeling that most breakthroughs in ML stems from trying to solve "hard" NLP tasks.
+</sentence><sentence id="APT012_035">And like you said may both of us never lose hope and never stop wanting to do better. :)
+</sentence><signature></signature></text></email><email id="6"><date> Fri, Oct 8, 2010 at 5:41 PM
+</date><from> s &lt;s@email.com&gt;
+</from><to> suj &lt;suj@gmail.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_036">looks like I'll call you, because I have a bong meeting tonight..  so I'll call you after that or maybe tomorrow morning.
+</sentence><sentence id="dummy"></sentence><signature></signature></text></email><email id="7"><date> Fri, Oct 8, 2010 at 5:50 PM
+</date><from> suj &lt;suj@gmail.com&gt;
+</from><to> s &lt;s@email.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_037">Sure Mike,
+</sentence><sentence id="APT012_038">have fun.
+</sentence><sentence id="APT012_039">Me still at office!
+</sentence><signature></signature></text></email><email id="8"><date> Fri, Oct 8, 2010 at 5:51 PM
+</date><from> s &lt;s@email.com&gt;
+</from><to> suj &lt;suj@gmail.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_040">And today we had one of those little meetings on the ML contest.
+</sentence><sentence id="APT012_041">Dan, as he proves time and again, is really awesome.
+</sentence><sentence id="APT012_042">It's totally different from the BS group meetings we used to have in the name of ChemXSeer, CiteSeer, etc.
+</sentence><sentence id="APT012_043">He knows how to interest people.
+</sentence><sentence id="APT012_044">I really enjoyed today's meeting.
+</sentence><sentence id="APT012_045">Here also we are keeping a wiki, but nowhere like the useless one Mitraji asked us to put up.
+</sentence><sentence id="APT012_046">You have to know how to use a wiki before you start using it.
+</sentence><sentence id="APT012_047">Wiki is for coordination, and if there is proper coordination, you may not need it at all.
+</sentence><sentence id="APT012_048">It's just a tool for helping you out, not a weekly menace that you have to report and wrap up.
+</sentence><sentence id="APT012_049">And Dan showed that he is a master coordinator as well.
+</sentence><sentence id="APT012_050">You can log in to the wiki using your PSU account and see:
+</sentence><sentence id="APT012_051">http://wikispaces.psu.edu/display/mlchallenge/chess
+</sentence><sentence id="APT012_052">I admit you may not be clear on everything but you'll get the idea.
+</sentence><sentence id="APT012_053">Here five people are working on the same problem and they are updating this wiki whenever there is something new or interesting to report.
+</sentence><sentence id="APT012_054">Each week we discuss on the findings of the last week and Dan puts up a modified work plan on the wiki.
+</sentence><sentence id="APT012_055">You won't have to report every week, but it's like if you don't do anything, you'll feel bad.
+</sentence><sentence id="APT012_056">So people are working out of their own involvement - which is crucial for something to succeed.
+</sentence><sentence id="APT012_057">Unlike the case with Mitraji or Giles in a meeting.
+</sentence><sentence id="APT012_058">They'll start asking if you have done something, and if you have not, you'll be chastised.
+</sentence><sentence id="APT012_059">But they won't take care or responsibility of anything that was done.
+</sentence><sentence id="APT012_060">Let alone be checking the wiki, which is actually pretty easy to do.
+</sentence><signature></signature></text></email><email id="9"><date> Fri, Oct 8, 2010 at 6:00 PM
+</date><from> suj &lt;suj@gmail.com&gt;
+</from><to> s &lt;s@email.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_061">I understand your irritation with our group and the way things are done.
+</sentence><sentence id="APT012_062">I think part of the reason why Dan is so good with teaching/coordination is perhaps due to his
+</sentence><sentence id="APT012_063">own experience at Cornell.
+</sentence><sentence id="APT012_064">I guess when you are exposed to good stuff during your own time you tend to  be more benevolent when you can be.
+</sentence><sentence id="APT012_065">Like today, we had an all girls lunch at NEC.
+</sentence><sentence id="APT012_066">I was hearing the conversation of two ladies who got their phds from CMUs and they were going gaga abt how great CMU is and how it feels to be in the midst of geniuses both professors and students there.
+</sentence><sentence id="APT012_067">They were saying that it is not just being smart, most of the success comes from hardwork and the conducive environment that surrounds you.
+</sentence><sentence id="APT012_068">Anyway one lady who got her Phd in 1994 is currently the head of some group here and her words to me were "the trick is you don't give up".
+</sentence><sentence id="APT012_069">As long as you dont give up you will be fine.
+</sentence><sentence id="APT012_070">I was so impressed that a person of such stature was so modest and down-to-earth.
+</sentence><sentence id="APT012_071">These are the people who I cannot help but admire.
+</sentence><sentence id="APT012_072">Apparently Sean Hallgren was here for a few years and Swarat was here for a postdoc before he became a professor. :) 
+</sentence><sentence id="APT012_073">And Dr. Giles ko tho sab jaante hai.
+</sentence><sentence id="APT012_074">My mentor was like he did some great stuff at NEC, I dont know why he totally changed tracks :D
+</sentence><signature></signature></text></email><email id="10"><date> Fri, Oct 8, 2010 at 6:09 PM
+</date><from> s &lt;s@email.com&gt;
+</from><to> suj &lt;suj@gmail.com&gt;
+</to><subject> hello
+</subject><text><sentence id="APT012_075">well, yeah, you are right.
+</sentence><sentence id="APT012_076">And another reason is - I just thought about it today - look, there are 13 people in our group.
+</sentence><sentence id="APT012_077">As we know, union is strength.
+</sentence><sentence id="APT012_078">So many people can do lots of good stuff,  *provided* they are collaborating instead of competing.
+</sentence><sentence id="APT012_079">What I mean is, instead of everybody working on different problems and going nowhere, why not take 4 people together and let them pursue the same problem.
+</sentence><sentence id="APT012_080">In this way, may be 3 problems will be solved by 12 people, but the time taken will be less and the quality of output will be high.
+</sentence><sentence id="APT012_081">Say, for example, the TREC thing. Although the data didn't come, we progressed a lot in our thoughts.
+</sentence><sentence id="APT012_082">That was possible because 3 people - you, me and Sumit - also Mitraji - was working for the SAME problem.
+</sentence><sentence id="APT012_083">I am sure if that thing works out, it will be good. 
+</sentence><sentence id="APT012_084">But there are two preconditions:
+</sentence><sentence id="APT012_085">1&gt; The coordinator has to be knowledgeable and practical - not a whimsical fellow like Giles or Mitraji
+</sentence><sentence id="APT012_086">2&gt; You are allowed to pursue at max 2 problems at a time - one problem is with the group (with weekly meetings and wiki), and another problem is between you and your advisor.  And the former is mandatory.
+</sentence><sentence id="APT012_087">I think this model, if properly implemented, might have resulted in an ICML or NIPS within a reasonable amount of time.
+</sentence><signature></signature></text></email></thread></root>

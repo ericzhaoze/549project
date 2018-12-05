@@ -1,0 +1,23 @@
+<root><thread><filename>farmer-d_logistics_28.txt</filename><name>	TGLO Status</name><id>ECT061</id><email order="1"><date> Wed, 14 Nov 2001 13:40:30 -0800 (PST)</date><from> 	Parker, Megan</from><to>	Boyt, Eric</to><subject>	TGLO Status</subject><text><sentence id="ECT061_001">Eric: I reviewed the gas deals on Franks' spreadsheet and they agree with what is in Sitara.
+</sentence><sentence id="ECT061_002">As soon as I have the October gas numbers, I will forward them to you.
+</sentence><sentence id="ECT061_003">Attached is a spreadsheet of the TGLO deals booked to the GL to help you with our current settlement position.
+</sentence><sentence id="ECT061_004">It is divided by debit/credit entries.
+</sentence><sentence id="ECT061_005">When the sales are booked, a debit hits the customer account to create the open sale to apply the cash to and a credit hits the revenue account (40004000 third party; 40005000 intercompany) for the profit center.
+</sentence><sentence id="ECT061_006">Below is a summary of where we are on the sale dollars to EGM.
+</sentence><sentence id="ECT061_007">I have already sent an email to risk to update the demand fees for the prior months and to book Aug and Sept crude.
+</sentence><sentence id="ECT061_008">I will wait for the go ahead from Frank before I final them to the GL.
+</sentence><sentence id="ECT061_009">Let me know if you have any questions.
+</sentence><sentence id="ECT061_010">Megan  Status of Sales to EGM Cleared invoices $3,905,963.20 Open Invoices $1,177,587.60
+</sentence><sentence id="ECT061_011">To be booked $3,093,424.22  $8,176,975.55
+</sentence><signature> &lt;&lt; File: TGLO GL Account Detail.xls </signature></text></email><email order="2"><date> Wed, 14 Nov 2001 13:40:30 -0800 (PST)</date><from> 	Coffey Jr., Jim</from><to>	Parker, Megan; Boyt, Eric; Farmer, Daren J.</to><subject>	RE: TGLO Status</subject><text><sentence id="ECT061_012">Megan  As I mentioned to you yesterday, it still looks like the volumes for gas delivered to TX GLO do not have Linda Robert's origination fee deducted.
+</sentence><sentence id="ECT061_013">Do we need to execute a PMA with TXGLO to deduct those volumes from the next delievery?
+</sentence><sentence id="ECT061_014">Also isn't there an entry that is missing in your file to capture the $ cost of gas for the gas delivered to TXGLO?
+</sentence><sentence id="ECT061_015">Is that being captured in Unify or is it being manually entered by Gas Accounting?  Darren Do we need to execute a seperate deal ticket for the origination deduct?
+</sentence><sentence id="ECT061_016">Susan/Laynie What busines unit are these cost centers rolling up to (11814 &amp; 27117?)
+</sentence><signature> &lt;&lt; File: TGLO GL Account Detail.xls </signature></text></email><email order="3"><date> Wed, 14 Nov 2001 13:40:30 -0800 (PST)</date><from> 	East, Laynie</from><to>	Coffey Jr., Jim; Parker, Megan; Boyt, Eric; Farmer, Daren J.</to><subject>	RE: TGLO Status</subject><text><sentence id="ECT061_017">Cost centers 11814 and 27117 are rolling to Texas Gas Trading.
+</sentence><signature></signature></text></email><email order="4"><date> Wed, 14 Nov 2001 13:40:30 -0800 (PST)</date><from> 	Farmer, Daren J.</from><to>	Winfree, O'Neal D.</to><subject>	FW: TGLO Status</subject><text><sentence id="ECT061_018">OW,  What do you think about the orig deduct?
+</sentence><sentence id="ECT061_019">How do we usually handle orig on something like this?
+</sentence><signature>D </signature></text></email><email order="5"><date> Wed, 31 Oct 2001 12:50:34 -0800 (PST)</date><from>X- Winfree, O'Neal D. &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=OWINFRE</from><to>X- Farmer, Daren J. &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dfarmer</to><subject> RE: TGLO Status</subject><text><sentence id="ECT061_020">Sorry bout the first comment, did not totally understand...
+</sentence><sentence id="ECT061_021">We will handle this via the OA process, where I'm working with the OA group that will allow us a bucket of income or loss and we will run this through Tom's P&amp;L...
+</sentence><sentence id="ECT061_022">This will be a pass through for Tom's book... O 
+</sentence><signature></signature></text></email></thread></root>

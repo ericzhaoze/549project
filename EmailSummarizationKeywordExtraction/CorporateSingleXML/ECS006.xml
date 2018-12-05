@@ -1,0 +1,20 @@
+<root><thread><filename>lavorato-j_inbox_245.txt</filename><name>Cash analysis spreadsheet
+</name><id>ECS006</id><email order="1"><date>Sun, 28 Oct 2001 07:17:23 -0800 (PST)
+</date><from>jay.webb@enron.com
+</from><to>john.lavorato@enron.com
+</to><subject>Cash analysis spreadsheet
+</subject><text><sentence id="ECS006_001">Hi John.
+</sentence><sentence id="ECS006_002">Here is the spreadsheet.
+</sentence><sentence id="ECS006_003">A couple of comments/assumptions:  Only trades done after 8/26/01 are considered (bid week started on the 27th in August).
+</sentence><sentence id="ECS006_004">Only North American physical gas products are considered.
+</sentence><sentence id="ECS006_005">All numbers are in USD; an assumed conversion of 1.40 CAD/1 USD is used for the Canadian CAD trades.
+</sentence><sentence id="ECS006_006">For index pricing, an index of 3.00 USD is used.
+</sentence><sentence id="ECS006_007">Since on Sep 25, only the spot trades done during Aug 27-30 actually roll off, there isn't much of a rolloff on that date.
+</sentence><sentence id="ECS006_008">There is a much larger rolloff after Oct. 25.
+</sentence><sentence id="ECS006_009">The first sheet has the summary data.
+</sentence><sentence id="ECS006_010">Each column represents the net cash we owe a particular customer as of that date.
+</sentence><sentence id="ECS006_011">If they owe us, the value is set to 0. The other two sheets are supporting data.
+</sentence><sentence id="ECS006_012">Actually, the 1st sheet is just a copy of the second one, but the spreadsheet takes so long to calc, it is easier to play around with the summary page if you remove the dependencies on the third sheet.
+</sentence><sentence id="ECS006_013">Call me if you have any questions/requests.
+</sentence><sentence id="ECS006_014">(713/504-7540).
+</sentence><signature>-jay </signature></text></email></thread></root>

@@ -1,0 +1,12 @@
+<root><thread><filename>taylor-m_sent_568.txt</filename><name>Revision to Long Descriptions and ETA re: master agreements
+</name><id>ECS032</id><email order="1"><date>Fri, 22 Oct 1999 13:24:00 -0700 (PDT)
+</date><from>mark.taylor@enron.com
+</from><to>david.forster@enron.com, justin.boyd@enron.com, edmund.cooper@enron.com, 
+</to><subject>Revision to Long Descriptions and ETA re: master agreements
+</subject><text><sentence id="ECS032_001">As presently drafted the ETA provides that if a master agreement is in force covering a particular transaction, the master controls.
+</sentence><sentence id="ECS032_002">I don't think we ever adequately resolved the multiple Enron entity issue, though.
+</sentence><sentence id="ECS032_003">For example, if a counterparty has an ISDA Master Agreement in place with ENA, that master agreement could easily cover a trade based on UK gas prices.
+</sentence><sentence id="ECS032_004">However, it is not the commercial people's intent that the system work that way.
+</sentence><sentence id="ECS032_005">They want every trade for a particular product to be with a single Enron entity (e.g.all UK gas transactions are with Enron Europe), regardless of what master agreements are in place.
+</sentence><sentence id="ECS032_006">To resolve this I suggest that the long descriptions be revised to state the Enron trading entity for each product type (this is already in place for European derivatives) and that the ETA be revised as follows:  revise the fifth line of paragraph (a) of Section 3 such that Transactions are governed by the short and long definitions in respect of a product "...and any master agreement between Counterparty and the Enron entity trading in such product on the Website which is in effect as of the date of the execution of such Transaction..."  (underlined text inserted)  I think this will please the commercial and tax people; any thoughts from the legal side?
+</sentence><signature></signature></text></email></thread></root>

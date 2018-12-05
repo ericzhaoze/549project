@@ -1,0 +1,71 @@
+<root><thread><filename>APT001.txt</filename><name> update
+</name><id>APT001</id><email id="1"><date> Sat, Jun 29, 2013 at 1:17 PM
+</date><from> S&lt;s@gmail.com&gt;
+</from><to> X&lt;x@xxx.edu&gt;
+</to><subject> update
+</subject><text><sentence id="APT001_001">Dear Prof Lu,
+</sentence><sentence id="APT001_002">Hope you are doing well. :)  I have a few updates I wanted to share with you.
+</sentence><sentence id="APT001_003">First of all, I saw that you have been an Early Career Professor. 
+</sentence><sentence id="APT001_004">My heartiest congratulations and best wishes to you. :) :)  
+</sentence><sentence id="APT001_005">You are one of the best Professors I met at PSU.
+</sentence><sentence id="APT001_006">My life here has been good as well. Ana is a really good advisor. :)
+</sentence><sentence id="APT001_007">I'm currently a research assistant under Ana. 
+</sentence><sentence id="APT001_008">The project we are working on involves keyword extraction and summarization of emails and email threads. 
+</sentence><sentence id="APT001_009">The project is funded by Samsung. 
+</sentence><sentence id="APT001_010">They are looking for some novel summarization solutions for their cellphone and smartphone users that will ideally consume less memory, and would still be as or more effective.
+</sentence><sentence id="APT001_011">The project is fun, challenging, and intellectually satisfying. 
+</sentence><sentence id="APT001_012">I must say, Ana really thinks about her students' interests before bringing in a new project.
+</sentence><sentence id="APT001_013">Side by side, I'm working on my own research problem - authorship attribution and author profiling using word network features.
+</sentence><sentence id="APT001_014">As part of our work, we submitted a poster at BEA-8 workshop co-located with NAACL 2013.
+</sentence><sentence id="APT001_015">If you want to take a look, the paper is here.
+</sentence><sentence id="APT001_016">It was in the Native Language Identification (NLI) Shared Task organized by ETS.
+</sentence><sentence id="APT001_017">I also saw that you were in the PC of BEA-8 workshop.  :)
+</sentence><sentence id="APT001_018">I visited Atlanta for the poster presentation, and was there from June 8 through June 16.
+</sentence><sentence id="APT001_019">It was an awesome experience. :)
+</sentence><sentence id="APT001_020">I met several people in the NAACL conference + BEA-8 workshop, many of them from ETS.
+</sentence><sentence id="APT001_021">We had discussions, chats, arguments, counter-arguments, etc, etc. It was a very satisfying experience. :)
+</sentence><sentence id="APT001_022">The poster also went well, due in part to the word network techniques drawing people's interest.
+</sentence><sentence id="APT001_023">I met Brat Brooke from U of Toronto there, who worked in lexical formality before, and Dr Ed Hovy from CMU (he was previously at USC ISI).
+</sentence><sentence id="APT001_024">Both encouraged me to pursue the formality problem again.
+</sentence><sentence id="APT001_025">Brat is graduating, so he will not pursue it any further.
+</sentence><sentence id="APT001_026">He told me to gather more annotated data, and run pragmatic scores on the annotated data.
+</sentence><sentence id="APT001_027">Prof Hovy, on the other hand, opined using syntactic features like production rules and parse tree fragments.
+</sentence><sentence id="APT001_028">I plan to come back to the formality problem some time this Fall.
+</sentence><sentence id="APT001_029">I'll keep you in the loop. Prof Hovy mentioned that it's a wide open field, and not much has been done.
+</sentence><sentence id="APT001_030">He also told me to keep him informed of what I do with respect to formality.
+</sentence><sentence id="APT001_031">Meanwhile, I'm also collaborating here with Cornelia Caragea, a former postdoc at Penn State in our old lab, and Sagnik Ray Choudhury, a PhD student in Lee Giles's group. We are working on using graph centrality measures in keyphrase extraction. Sagnik is one year junior in my undergrad college. We are from the same college and same department, so it really helps to have somebody like him as a collaborator. :P :)
+</sentence><sentence id="APT001_032">I'm almost done with another big project here. It's based on the ACL Anthology Reference Corpus (ACL ARC).
+</sentence><sentence id="APT001_033">Hope you'll like it. :)  It also has the propositional idea density concept (CPIDR) I learnt in your class.
+</sentence><sentence id="APT001_034">Finally, in another big turn of events, Ana is moving to UMich Ann Arbor with her family.
+</sentence><sentence id="APT001_035">She has accepted a tenured faculty position at UMich, along with her husband Dr Mihai Burzo.
+</sentence><sentence id="APT001_036">She is already listed on the UMich faculty page as an Associate Professor. She will move there in mid-August.
+</sentence><sentence id="APT001_037">Currently she has four PhD students - Mia, Mia, Michael, and myself.
+</sentence><sentence id="APT001_038">Everybody except Michael is moving with Ana to UMich as visiting students.
+</sentence><sentence id="APT001_039">Michael will stay at UNT, because he only has four more months to graduate.
+</sentence><sentence id="APT001_040">Mia will graduate next year.
+</sentence><sentence id="APT001_041">Mia and I will apply to UMich for Fall 2014.
+</sentence><sentence id="APT001_042">Hopefully we'll get accepted, because Ana will oversee our applications.
+</sentence><sentence id="APT001_043">If that happens, then we might end up getting a PhD from UMich rather than UNT, which will be a huge event in our lives. :P :)
+</sentence><sentence id="APT001_044">I never thought such a thing might even be possible when I moved to UNT.
+</sentence><sentence id="APT001_045">Well, now I believe that you really never know what will happen. :P :)
+</sentence><sentence id="APT001_046">With that, I'd like to close today. I wish you all the best again, and thanks for all your help, suggestions, advice and camaraderie in some of the most difficult moments of my life.
+</sentence><signature>Thanks and regards, Chi </signature></text></email><email id="2"><date> Sat, Jun 29, 2013 at 1:17 PM
+</date><from> X&lt;x@xxx.edu&gt;
+</from><to> C@gmail.com
+</to><subject> update
+</subject><text><sentence id="APT001_047">I'm traveling through 7/18 and may not respond to email promptly.
+</sentence><sentence id="dummy"></sentence><signature>Xi </signature></text></email><email id="3"><date> Tue, Jul 2, 2013 at 3:29 AM
+</date><from> Xiaofei Lu &lt;xxl13@psu.edu&gt;
+</from><to> Chi &lt;C@gmail.com&gt;
+</to><subject> update
+</subject><text><sentence id="APT001_048">Hi Chi,
+</sentence><sentence id="APT001_049">Thanks for the thorough update. 
+</sentence><sentence id="APT001_050">I'm very glad to learn of the exciting
+</sentence><sentence id="APT001_051">turn of events that are coming your way. 
+</sentence><sentence id="APT001_052">I'm traveling in China right now and can't write much, but keep me posted of any new developments.
+</sentence><signature>Best, Xi </signature></text></email><email id="4"><date> Tue, Jul 2, 2013 at 10:49 AM
+</date><from> Chi  &lt;C@gmail.com&gt;
+</from><to> Xi &lt;x@xxx.edu&gt;
+</to><subject> update
+</subject><text><sentence id="APT001_053">Yes, I definitely will do that.
+</sentence><sentence id="dummy"></sentence><signature>Regards, Chi</signature></text></email></thread></root>

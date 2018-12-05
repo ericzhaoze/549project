@@ -1,0 +1,13 @@
+
+Simple prototype:
+
+readRada.py:
+reading rada's xml files, return thread as array of strings
+
+extractKeywords.py:
+main model, with 3 rake options now
+
+main.py:
+play with it, run python3 main.py
+
+Have fun!

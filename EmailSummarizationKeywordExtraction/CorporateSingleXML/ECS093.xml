@@ -1,0 +1,16 @@
+<root><thread><filename>taylor-m_sent_511.txt</filename><name>Online Trading contracts
+</name><id>ECS093</id><email order="1"><date>Fri, 1 Oct 1999 08:08:00 -0700 (PDT)
+</date><from>mark.taylor@enron.com
+</from><to>alan.aronowitz@enron.com, david.minns@enron.com
+</to><subject>Online Trading contracts
+</subject><text><sentence id="ECS093_001">Here are several of the contracts we are planning to use for the online system.
+</sentence><sentence id="ECS093_002">I wish I could tell you these are the final (or even the most recent) versions of the documents but things have changed so frequently that I'm afraid these may not be quite up to date.
+</sentence><sentence id="ECS093_003">They do have the advantage of being in my directory and therefore available to send to you today.
+</sentence><sentence id="ECS093_004">I don't think the final changes will be significant but if you want to use these as starting points, please let me know so I can be sure you have the latest material.
+</sentence><sentence id="ECS093_005">The PA is the Password Application which is the only document the prospective counterparty actually signs by putting pen to paper.
+</sentence><sentence id="ECS093_006">The first time the counterparty logs on to the system with its approved password, it is required to agree to the ETA (Electronic Trading Agreement) by clicking on an "I Agree" box after scrolling through the agreement.
+</sentence><sentence id="ECS093_007">The GTC's are the contractual terms that apply to online transactions if there is no master agreement in place.
+</sentence><sentence id="ECS093_008">Legal will have the ability to restrict a counterparty to trading only certain products online if we feel it is necessary.
+</sentence><sentence id="ECS093_009">While most financial transactions will be governed by GTC's that look like our "Omnibus" documentation, the weather derivatives look more like a "Deemed ISDA."
+</sentence><sentence id="ECS093_010">One final complication, the credit group has asked us to create two sets of documents: one for highly creditworthy counterparties which will have no credit provisions included and a second set for counterparties credit is not quite comfortable with which will contain a provision allowing us to call for collateral if we choose.
+</sentence><signature></signature></text></email></thread></root>

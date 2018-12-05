@@ -1,0 +1,38 @@
+<root><thread><filename>weldon-c_kcs_1.txt</filename><name> Information</name><id>ECT028</id><email order="1"><date> Wed, 15 Aug 2001 14:52:57 -0700 (PDT)</date><from> Saubier, Sebastien [mailto:Sebastien.Saubier@enron.com]</from><to> hotraj@hmc.harvard.edu; Jones, Doug</to><subject> Information</subject><text><sentence id="ECT028_001">Jason,  Rafi asked me to send you the attached information regarding the proposed project he and Doug discussed with you this afternoon.
+</sentence><sentence id="ECT028_002">It is a template that calculates the value of the equity based on a NYMEX strip.
+</sentence><sentence id="ECT028_003">Please input the NYMEX values in the indicated column to obtain the equity valuation as of 7/31/01.
+</sentence><sentence id="ECT028_004">Please call if you have any questions.
+</sentence><signature>Regards, Sebastien	713 345 4387 Rafi		713 345 4004 Doug 		713 853 7494  &lt;&lt;KCS-Harvard71801.xls </signature></text></email><email order="2"><date> Wed, 15 Aug 2001 14:52:57 -0700 (PDT)</date><from> Hotra, Jason [mailto:hotraj@hmc.harvard.edu]</from><to> Saubier, Sebastien; Jones, Doug; Khan, Rafi</to><subject> RE: Information</subject><text><sentence id="ECT028_005">Thanks...
+</sentence><sentence id="ECT028_006">I haven't spoken to stu yet, but a couple questions:  is there a floating price offtaker lined up for the gas?
+</sentence><sentence id="ECT028_007">does production occur daily over the course of the month?
+</sentence><sentence id="ECT028_008">how would physical sales be priced, considering the fact that the basis is already secured?
+</sentence><sentence id="ECT028_009">The offtaker must either pay NYMEX prices for the gas, or else the packaged basis swap must settle on the same terms that the offtaker calculates the prevailing basis... would the offtaker pay bidweek prices or daily nymex settles...?  
+</sentence><sentence id="ECT028_010">What is the "excess cash allocated to equity"? some sort of fixed payment?
+</sentence><sentence id="ECT028_011">when is that made? the "total" line would imply that the "excess cash" is paid immediately, or else that the value is already a PV number, since it is not being discounted... what is the certainty of that payment?
+</sentence><sentence id="ECT028_012">Based on current NYM pricing, I get the NPV of unhedged volumes worth about 3.4m, making the total including excess cash payment 5.45m... What is the upfront equity required?
+</sentence><signature></signature></text></email><email order="3"><date> Wed, 15 Aug 2001 14:52:57 -0700 (PDT)</date><from> Khan, Rafi</from><to> Boyt, Eric</to><subject> FW: Information</subject><text><sentence id="ECT028_013">Eric,   Below is an e-mail from one of our contacts at Harvard Management Company (HMC).
+</sentence><sentence id="ECT028_014">They manage the Harvard University endowment and Jason works in their commodities group.
+</sentence><sentence id="ECT028_015">We are talking to him about the possibility of buying equity in the KCS deal.
+</sentence><sentence id="ECT028_016">Specifically, they will buy Trust certificates that CIBC currently owns.
+</sentence><sentence id="ECT028_017">The reason why this is important is that CIBC negotiated certain equity rights which effectively gives them veto rights over debt.
+</sentence><sentence id="ECT028_018">CIBC is unwilling to give up their rights, so we are looking into the possibility of having HMC buy them out.
+</sentence><sentence id="ECT028_019">HMC will not insist on having these rights.
+</sentence><sentence id="ECT028_020">With this background in mind, I need your help to answer some of the following question with regards to KCS.
+</sentence><sentence id="ECT028_021">Can you or Charlie go through the following questions and we can discuss them afterwards.
+</sentence><sentence id="ECT028_022">I know the answer to some of the questions, but not all.
+</sentence><signature> Thanks and best regards,  Rafi </signature></text></email><email order="4"><date> Wed, 15 Aug 2001 14:52:57 -0700 (PDT)</date><from> Boyt, Eric</from><to> Khan, Rafi</to><subject> FW: Information</subject><text><sentence id="ECT028_023">Rafi,  I spoke with Tim Proffitt regarding this request.
+</sentence><sentence id="ECT028_024">His comment was that HMC needs to know the weighted average basis to use in their model.
+</sentence><sentence id="ECT028_025">I can work on this.
+</sentence><sentence id="ECT028_026">I can also speak towards how the cash will settle to KSTARR on 1) the hedges with ENA and 2) the physical gas sales to the market.
+</sentence><sentence id="ECT028_027">I cannot speak towards how the cash will settle (be "funneled") from KSTARR to the equity owner via the legal document governing the certificates.
+</sentence><sentence id="ECT028_028">Tim and the legal team that papered the deal can help you with those aspects of the deal.
+</sentence><sentence id="ECT028_029">Regarding some of the questions below.... (Trish/Pam - please correct me if you see anything wrong)  Q: Does the production occur daily or monthly?
+</sentence><sentence id="ECT028_030">A: Production is nominated daily, but aggregated for each day for a monthly total.
+</sentence><sentence id="ECT028_031">This monthly total is priced at the monthly index, depending upon location.
+</sentence><sentence id="ECT028_032">Q: How would physical sales be priced, considering the fact that the basis is already secured?
+</sentence><sentence id="ECT028_033">A: All physical gas is sold into the market (to ENA on some instances) and is priced based upon where the applicable monthly index settles, meaning this is a floating price until the 1st day of the production month when the index is set.
+</sentence><sentence id="ECT028_034">KSTARR will receive cash for physical gas sales on the 25th day following the month of production (July production proceeds are collected on August 25).
+</sentence><sentence id="ECT028_035">The financial basis hedges (difference between NYMEX and the applicable index) will settle on the 5th business day following the 1st day of the month (July basis hedge settles between ENA and KSTARR on July 5th).
+</sentence><sentence id="ECT028_036">I need to speak with you further regarding the remaining questions.
+</sentence><sentence id="ECT028_037">Some I may be able to speak to and others Tim will be able to help.
+</sentence><signature>Regards, Eric </signature></text></email><email order="5"><date> Thu, 19 Jul 2001 10:13:33 -0700 (PDT)</date><from>X- Boyt, Eric &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=EBOYT</from><to>X- Weldon, V. Charles &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Vweldon</to><subject> FW: Information</subject><text><signature></signature></text></email></thread></root>

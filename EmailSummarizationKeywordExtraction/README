@@ -1,0 +1,351 @@
+                  Dataset for Summarization and
+                  Keyword Extraction from Emails
+                  ==============================
+
+                        April 11, 2014
+     Vanessa Loza, Shibamouli Lahiri, Rada Mihalcea, Po-Hsiang Lai
+University of North Texas, University of Michigan, Samsung Research America
+
+               Contact: vanessalozaponce@my.unt.edu
+                        shibamoulilahiri@my.unt.edu
+                        mihalcea@umich.edu
+                        s.lai@sta.samsung.com
+
+
+CONTENTS
+
+1. Introduction
+2. Corpus Construction
+3. Annotation Guidelines
+4. XML Format
+5. Description of the Dataset
+6. Feedback and Bug reports
+7. Acknowledgments
+8. Citation
+9. References
+
+
+===========================
+1. INTRODUCTION
+
+Email constitutes an important means of communication in our daily
+exchanges, used not only for personal conversation but also as a
+repository of corporate information. Given the overwhelming number
+of emails that we have to handle on an everyday basis, it is becoming
+increasingly important to have efficient access to the important
+information contained in emails.
+
+Summarization and keyphrase extraction are two complementary techniques
+which, given a natural language text, extract the most important
+sentences and the most important words or phrases. Therefore, when
+applied to an email or an email thread, it is expected that these two
+procedures, when suitably implemented, would give us the most important
+sentences and words/phrases contained in them, thereby effectively
+giving us a "snippet" of the text and mostly reducing the time needed to
+read an entire email.
+
+Several datasets have been released for general-purpose summarization
+and keyword extraction (Hasan and Ng, 2010), but very few of them
+specifically deal with emails. Emails have a special graph structure
+(Carenini et al., 2007) that warrants more intricate treatment than
+that needed by other types of text documents. The only email
+summarization corpus we are aware of is due to (Ulrich et al., 2008).
+This corpus (BC3) consists of 40 email threads (3222 sentences) with
+annotations for extractive and abstractive summarization, speech act,
+meta sentences, and subjectivity. While important for being a path-
+breaker in email summarization research, the corpus is relatively small,
+it does not give a ranked list of extracted sentences, there is no
+control over the number of sentences extracted, and perhaps most
+importantly from our perspective, the corpus does not include keywords.
+The only corpus for keyword extraction from emails (Turney, 2000) has
+never been released publicly.
+
+We introduce a new email dataset, consisting of single emails and
+email threads, manually annotated with extractive and abstractive
+summaries, and keywords. This dataset is our first step toward
+developing automatic methods for summarization and keyword extraction
+from emails. A total of 349 emails have been annotated, of which 319
+come from the Enron corpus (Klimt and Young, 2004), and 30 are from
+emails provided by volunteers. Our corpus, consisting of a total of more
+than 100,000 words and close to 7,000 sentences, is enclosed herewith.
+
+
+
+===========================
+2. CORPUS CONSTRUCTION
+
+We primarily used the Enron dataset (Klimt and Yang, 2004), a large
+collection of emails made public during the legal investigation
+concerning Enron corporation. The raw Enron corpus contains 619,446
+messages belonging to 158 users. We used the Enron Corpus prepared by
+CALO ("Cognitive Assistant that Learns and Organizes"), which does not
+contain attachments. Moreover, some messages have been removed following
+the request of affected employees. This dataset consists of 150 mailboxes,
+each containing a folder distribution specific to each employee. Among
+the variety of topics discussed over the collection, mainly energy trading,
+we also found a considerable number of emails representing private and
+personal communication between employees, employees and friends, or
+employees and their family. We thus decided to use the Enron Corpus as a
+primary source for both private and corporate emails. For single emails,
+only the lines that were not part of the header were considered. The
+complete text included greetings and signature, as well as some privacy
+notes at the bottom. As a pre-selection step, we only considered the emails
+containing between 10 and 50 lines. To select email threads, we began with
+the list of all the files containing more than one email. From this group
+we selected as "threads" all files with at least three emails.
+
+Retrieved emails were then classified as either corporate or private. We
+use the term "corporate" to refer to any communication within work environment.
+Given Enron's business type, the most discussed topics are generally energy
+market, energy trading, human resources, and legal advice. It is worth
+mentioning that the discussion incorporates a large amount of technical terms
+which are very specific to the energy trading field.
+
+We collected two different sets of private emails. The first set is obtained
+from the Enron collection. To identify emails that potentially belonged to the
+private category among a large set of Enron emails, we used clue words in the
+folder names as a hint. For instance, we looked for emails classified under
+folders such as "personal stuff", "family", "personal mail", etc. We also
+collected a second set of private emails, mainly provided by volunteers from
+their own private mailboxes. No topic was specified. All personal references
+were removed from the text, and replaced with a different random word.
+Additionally, email addresses were replaced and modified. This set was processed
+similar to the Enron set of emails. The final selection of private and corporate
+emails was made after manual inspection of the email content. We discarded emails
+that appeared to be written in a different language, subscriptions, spam mails,
+emails containing inappropriate content, and electronic receipts. The signature
+lines were also manually marked and differentiated from the email text.
+
+
+
+===========================
+3. ANNOTATION GUIDELINES
+
+To understand the accompanying dataset and the schema of the XML files it
+contains, we first need to describe the annotation guidelines used in the
+project. Emails were manually annotated by two independent annotators, who
+generated four types of annotations for each single email or thread: an
+abstractive summary, a set of important sentences (extractive summary), a
+set of keyphrases, and a classification of the email as either corporate or
+private.
+
+The abstractive summary is limited to a maximum of 450 characters, preserving
+the most important information of the original message. The guidelines asked
+that the abstractive summaries be written in the third person, regardless of
+the writing style of the original message. Annotators were explicitly allowed
+to use some excerpts from the original text, although they were encouraged to
+write most of the summary in their own words. While annotating the threads,
+signature lines could be included in the summaries, to facilitate the task of
+identifying the flow of the conversation.
+
+Following the abstractive summary, the annotators were asked to select five
+most significant sentences that contained the most important information in
+the email, and also rank the sentences in reverse order of their importance.
+For threads, the sentences selected as important could belong to any email
+in the thread.
+
+After abstractive and extractive summaries, annotators were requested to
+identify five single words and/or phrases that are the most representative
+of the conversation in the thread or single email. For consistency purposes,
+annotators were suggested to try to select keyphrases that consist of noun
+phrases or named entities (rather than e.g., verbs or other parts of
+speech), although sometimes keyphrases of other types such as verb phrases
+and adverb phrases were selected. Since the size of the keyphrases can play
+an important role in inter-annotator agreement, we decided to suggest a limit
+of at most four words in a keyphrase. Keyphrases were ranked by importance,
+following the same principle as the one used in sentence ranking.
+
+Finally, to validate our own classification of an email as either private or
+corporate, annotators were asked to classify each email/thread as "private"
+or "corporate".
+
+
+
+===========================
+4. XML FORMAT
+
+All our emails and annotations have been stored using an XML format. We
+use the XML format previously used in the BC3 Corpus (Ulrich et al., 2008),
+with some tags modified to meet our purposes. The format is the same for
+both threads and single emails, the latter being considered as threads of
+size one. The XML format for single emails and threads is shown below:
+
+<root>
+<thread>
+<fileName></fileName>
+<name></name>
+<id></id>
+<email order="">
+<date></date>
+<from></from>
+<to></to>
+<subject></subject>
+<text>
+<sentence id="">
+</sentence>
+<signature></signature>
+</text>
+</email>
+</thread>
+</root>
+
+Each thread is assigned a unique identifier, and is associated with a unique
+filename. Further, email order within the threads is made chronological using
+the "order" attribute. Each sentence is assigned a separate unique identifier
+to ensure easy access and retrieval. The "subject" field holds the title of an
+email, and the "name" field holds the title of the thread. "from" and "to"
+fields are email addresses of the sender and the recipient, respectively.
+Instead of removing signatures, we included them in a separate "signature" field.
+
+Annotations are also exported into an XML format, using the structure shown below:
+
+<root>
+<annotation email="" annotator="">
+<abstractive></abstractive>
+<extractive_sentences>
+<sentence rank="5"></sentence>
+<sentence rank="4"></sentence>
+<sentence rank="3"></sentence>
+<sentence rank="2"></sentence>
+<sentence rank="1"></sentence>
+</extractive_sentences>
+<keyword_keyphrase>
+<keyword rank="5"></keyword>
+<keyword rank="4"></keyword>
+<keyword rank="3"></keyword>
+<keyword rank="2"></keyword>
+<keyword rank="1"></keyword>
+</keyword_keyphrase>
+</annotation>
+</root>
+
+Note from the above format that we store annotator IDs, abstractive summaries, ranked
+sentences and keyphrases into several fields. The private/corporate classification was
+not stored explicitly because its relevance to the summarization and keyword extraction
+task is yet to be explored.
+
+
+
+===========================
+5. DESCRIPTION OF THE DATASET
+
+Untarring/unzipping the tar ball of this distribution should result in
+the following directories:
+
+  CorporateSingleXML/
+            -- directory containing single emails of corporate category from Enron.
+
+  CorporateThreadXML/
+            -- directory containing email threads of corporate category from Enron.
+
+  PersonalSingleXML/
+            -- directory containing single emails of private category from Enron.
+
+  PersonalThreadXML/
+            -- directory containing email threads of private category from Enron.
+
+  PrivateSet/
+            -- directory containing single emails and email threads from volunteers.
+               - singleXML/ contains single emails.
+               - threadXML/ contains email threads.
+
+  Evaluation/
+            -- directory containing a random sample of 30 emails from Enron. There
+               are 10 corporate singles, 5 corporate threads, 10 private singles, and
+               5 private threads.
+
+  Annotations/
+            -- directory containing email annotations.
+               - "CorporateSingle.xml" has annotations for Enron corporate singles.
+               - "CorporateThread.xml" has annotations for Enron corporate threads.
+               - "PrivateSingle.xml" has annotations for Enron private singles.
+               - "PrivateThread.xml" has annotations for Enron private threads.
+               - "newPrivateSingle.xml" has annotations for singles from volunteers.
+               - "newPrivateThread.xml" has annotations for threads from volunteers.
+
+
+Emails have the following naming convention:
+
+ECS - Enron Corporate Single
+ECT - Enron Corporate Thread
+EPS - Enron Private Single
+EPT - Enron Private Thread
+APS - Volunteer Private Single
+APT - Volunteer Private Thread
+
+Each email XML filename starts with the above naming convention, followed by its unique ID.
+
+Each sentence also has a unique identifier. The first 6 characters are the email identifier 
+and the last 3 characters represent the order of the sentence in the email/thread. 
+
+EX: ECS001_003
+
+Where ECS001 is the email identifier and 003 is the position of the sentence in the email/thread.
+
+
+===========================
+6. FEEDBACK AND BUG REPORTS
+
+If you have any suggestions on how to improve the dataset, we would love
+to hear from you. Please contact us at vanessa.loza@gmail.com and/or
+shibamoulilahiri@gmail.com. Any bug reports should also be submitted to
+vanessa.loza@gmail.com and/or shibamoulilahiri@gmail.com.
+
+
+
+===========================
+7. ACKNOWLEDGMENTS
+
+This dataset is based upon work supported by Samsung Research America under
+agreement GN0005468 and by the National Science Foundation under IIS award
+#101861. Any opinions, findings, conclusions or recommendations expressed
+above are those of the authors and do not necessarily reflect the views of
+Samsung Research America or the National Science Foundation.
+
+
+===========================
+8. CITATION
+
+If you use this dataset, please cite:
+
+@InProceedings{LOZA14,
+  author = {Vanessa Loza and Shibamouli Lahiri and Rada Mihalcea and Po-Hsiang Lai},
+  title = {Building a Dataset for Summarization and Keyword Extraction from Emails},
+  booktitle = {Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
+  year = {2014},
+  month = {May},
+  date = {26-31},
+  address = {Reykjavik, Iceland},
+  url = {http://www.lrec-conf.org/proceedings/lrec2014/pdf/1037_Paper.pdf}
+ }
+
+===========================
+9. REFERENCES
+
+
+[1] Giuseppe Carenini, Raymond T. Ng, and Xiaodong Zhou, Summarizing
+    Email Conversations with Clue Words, in Proceedings of the 16th
+    International Conference on World Wide Web (WWW '07), pages 91--
+    100, New York, NY. 2007. Available from http://www2007.org/papers/paper631.pdf
+
+[2] Kazi Saidul Hasan and Vincent Ng, Conundrums in Unsupervised
+    Keyphrase Extraction: Making Sense of the State-of-the-Art, in
+    Proceedings of the 23rd International Conference on Computational
+    Linguistics: Posters, pages 365--373. 2010. Available from
+    http://aclweb.org/anthology//C/C10/C10-2042.pdf
+
+[3] Bryan Klimt and Yiming Yang, Introducing the Enron Corpus, in
+    Proceedings of the First Conference on Email and Anti-Spam (CEAS),
+    Mountain View, CA. 2004. Available from http://ceas.cc/2004/168.pdf
+
+[4] Peter D. Turney, Learning Algorithms for Keyphrase Extraction,
+    Information Retrieval, 2(4):303--336. 2000. Available from
+    http://arxiv.org/pdf/cs/0212020.pdf
+
+[5] Jan Ulrich, Gabriel Murray, and Giuseppe Carenini, A Publicly Available
+    Annotated Corpus for Supervised Email Summarization, in AAAI 2008 EMAIL
+    Workshop, Chicago, IL. 2008. Available from
+    http://www.cs.ubc.ca/~ulrichj/papers/ulrich-aaai08.pdf
+
+
+

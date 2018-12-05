@@ -1,0 +1,18 @@
+<root><thread><filename>benson-r_inbox_79.txt</filename><name>	Multiple Stack Manager</name><id>ECT017</id><email order="1"><date> Sun, 4 Nov 2001 17:22:38 -0800 (PST)</date><from> 	Evans, Casey</from><to>	Moorer, Torrey</to><subject>	Multiple Stack Manager</subject><text><sentence id="ECT017_001">Torrey,  Rob Benson is currently trading two general power regions (PJM and New York) under one EOL ID.
+</sentence><sentence id="ECT017_002">He manages one stack manager of which all deals are mapped to his EPMI-LT-PJM book.
+</sentence><sentence id="ECT017_003">He would like to create an additional stack manager so that he can divide the two regions into their own stack and manage them on separate screens.
+</sentence><sentence id="ECT017_004">All of the deals would continue to go into the LT-PJM book.
+</sentence><sentence id="ECT017_005">Let me know if this would be doable and what I need to do on my side to help out.
+</sentence><signature>Thanks! Casey </signature></text></email><email order="2"><date> Sun, 4 Nov 2001 17:22:38 -0800 (PST)</date><from> 	Moorer, Torrey</from><to>	Evans, Casey</to><subject>	RE: Multiple Stack Manager</subject><text><sentence id="ECT017_006">Casey,  Using one login ID, Bob can open two seperate Stack Manager windows on two PCs and set up different product filters on each for purposes of managing his different regions.
+</sentence><sentence id="ECT017_007">The only drawback here is that whichever stack he closes last will save the product defaults and he will have to set up his seperate breakout for the other region each time he logs in (a proces that may take a minute or two depending on how many products he is managing).
+</sentence><sentence id="ECT017_008">To avoid this, we could set him up with a second Stack Manager ID and he could simply maintain two distinct stacks.
+</sentence><sentence id="ECT017_009">If he would like a second Stack Manager ID, just let me know and I will forward the request to Stephanie Sever for setup.
+</sentence><signature>Thanks, Torrey </signature></text></email><email order="3"><date> Sun, 4 Nov 2001 17:22:38 -0800 (PST)</date><from> 	Evans, Casey</from><to>	Moorer, Torrey</to><subject>	RE: Multiple Stack Manager</subject><text><sentence id="ECT017_010">Torrey,  The latter sounds like a great option, so please set up a second Stack Manager ID for Rob so that he can maintain two distinct stacks.
+</sentence><sentence id="ECT017_011">All trades on both stacks should go to his EPMI-LT-PJM book regardless of which stack ID is used.
+</sentence><sentence id="ECT017_012">Let me know if you need additional information, and thanks so much for your help!
+</sentence><signature>Casey </signature></text></email><email order="4"><date> Thu, 6 Sep 2001 09:39:19 -0700 (PDT)</date><from>X- Sever, Stephanie &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=SSEVER</from><to>X- Evans, Casey &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Cevans, Moorer, Torrey &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tmoorer</to><subject> RE: Multiple Stack Manager</subject><text><sentence id="ECT017_013">Casey,  I have requested a Security Form from Laura Bacon for the additional Stack ID.
+</sentence><sentence id="ECT017_014">Once I receive, I will forward it to you.
+</sentence><sentence id="ECT017_015">Please fill out and have signed by appropriate signatory then return to Corporate Security.
+</sentence><sentence id="ECT017_016">If you will let me know when the form has been returned to Corporate Security, I will follow up with them as to when the ID has been set up.
+</sentence><sentence id="ECT017_017">Please let me know if you have any questions.
+</sentence><signature>Thanks, Stephanie x33465 </signature></text></email></thread></root>
