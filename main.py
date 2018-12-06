@@ -5,12 +5,21 @@ test_input_thread = []
 test_input_thread.append('I like hamburgers. I want to eat some now.\n' + ' I also like dogs, but not cats because they are too lazy.\n' + ' Can you feed my dog with a hamburger?')
 test_str = "food"
 
+testDict = {}
+testDict['hamburger']  = 0.666
+testDict['cat'] = 0.333
+
+
 def main():
 
     trainDir = 'EmailSummarizationKeywordExtraction/CorporateSingleXML/'
     testDir = 'EmailSummarizationKeywordExtraction/smallTest/'
     
     em = interface.ExtractManager(trainDir, testDir)
+    teststr = em.output_serializer(testDict)
+    print(teststr)
+
+
     # keywords1 = em.extract_keywords()
     # print(keywords1)
 

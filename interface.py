@@ -5,6 +5,7 @@ from select_keywords_related import select_keywords_related
 import gensim.downloader as api
 from collections import Counter
 
+
 class ExtractManager(object):
     def __init__(self, trainDir, testDir):
         trainThreads, trainFiles = readFiles(trainDir)
@@ -34,6 +35,32 @@ class ExtractManager(object):
         for line in thread:
             string += line
         return string
+
+    def normalize_dictionary_values(self, ouputdict):
+        dsum = 0.0
+        for key in list(ouputdict.keys()):
+            dsum += ouputdict[key]
+
+        newdict = {}
+        for key in list(ouputdict.keys()):
+            newdict[key] = float(ouputdict[key] / dsum) * 90.0 + 10.0
+
+        return newdict
+
+
+    def output_serializer(self, ouputdict):
+        newdict = self.normalize_dictionary_values(ouputdict)
+        string = '['
+        for key in list(newdict.keys()):
+            string += '{\"text\":\"'
+            string += str(key)
+            string += '\",\"size\":'
+            string += str(newdict[key])
+            string += '},'
+        size = len(string)
+        string = string[:-1] + ']'
+        return string
+
 
     def extract_keywords(self, topic_words = None, threads = None, keyword_number = 10):
         if threads == None:
