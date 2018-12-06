@@ -104,9 +104,9 @@ class Rake(object):
         listsum = 0.0
         
         for word in self.rank_list:
-            listsum += math.sqrt(word[0])
+            listsum += math.sqrt(math.sqrt(word[0]))
         for word in self.rank_list:
-            newitem = (math.sqrt(word[0])/listsum, word[1])
+            newitem = (math.sqrt(math.sqrt((word[0])))/listsum, word[1])
             self.normalized_list.append(newitem)
         
         self.ranked_phrases = [p[1] for p in self.rank_list]

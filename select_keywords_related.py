@@ -10,6 +10,7 @@ import numpy as np
 import nltk
 import gensim.downloader as api
 from collections import Counter
+from nltk.stem.snowball import SnowballStemmer
 
 
 TOPNUM = 10
@@ -24,20 +25,22 @@ def calculate_simlar_score(vec, topic_vec, topic_weight):
 	return np.sum(score)
 
 
-def select_keywords_related(thread_keywords, topic_words, keyword_number = 10):
+def select_keywords_related(model, thread_keywords, topic_words, keyword_number = 10):
 	"Select keywords related to certain topic words."
-	# Load pre-trained model
-	print("Loading pretrained model...")
-	# model = {}
-	model = api.load("glove-twitter-25")
-	print("Model loaded.")
-
+	stemmer = SnowballStemmer("english")
 	topic_related_scores = {}
 	topic_weight = [float(topic.split('*')[0]) for topic in topic_words.split(' + ')]
 	topic = [topic.split('*')[1].strip('"') for topic in topic_words.split(' + ')]
 	# print(topic)
 
-	topic_vec = [model[word] for word in topic]
+	topic_vec = []
+	for word in topic:
+		try:
+			word = stemmer.stem(word)
+			topic_vec.append(model[word])
+		except Exception as e:
+			e = 0
+	# topic_vec = [model[word] for word in topic]
 
 	for i in range(len(thread_keywords)):
 		for j in range(len(thread_keywords[i])):
@@ -49,6 +52,7 @@ def select_keywords_related(thread_keywords, topic_words, keyword_number = 10):
 			for word in keywords.split():
 				# print(word)
 				try:
+					word = stemmer.stem(word)
 					vec1 = model[word]
 					temp_score.append(keyword_weight * calculate_simlar_score(vec1, topic_vec, topic_weight))
 				except Exception as e:
