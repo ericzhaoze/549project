@@ -13,6 +13,8 @@ from xml.dom import minidom
 def getFilenames(filedir):
     file_set = []
     for idx, file in enumerate(os.listdir(filedir)):
+        if file[0] == ' ' or file[0] == '.':
+            continue
         filename = filedir + file
         file_set.append(filename)
         #print(filename)
