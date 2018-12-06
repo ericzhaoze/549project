@@ -24,7 +24,7 @@ def calculate_simlar_score(vec, topic_vec, topic_weight):
 	return np.sum(score)
 
 
-def select_keywords_related(thread_keywords, topic_words):
+def select_keywords_related(thread_keywords, topic_words, keyword_number = 10):
 	"Select keywords related to certain topic words."
 	# Load pre-trained model
 	print("Loading pretrained model...")
@@ -59,7 +59,7 @@ def select_keywords_related(thread_keywords, topic_words):
 
 	# Choose top related keywords
 	topic_related_scores_counter = Counter(topic_related_scores)
-	print(topic_related_scores_counter.most_common(10))
+	return topic_related_scores_counter.most_common(keyword_number)
 
 
 # def main():

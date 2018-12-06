@@ -1,43 +1,21 @@
-import extractKeywords
-from readRada import readFiles
-from topicModeling import ModelGenerator
-from select_keywords_related import select_keywords_related
+import interface
+
+
+test_input_thread = []
+test_input_thread.append('I like hamburgers. I want to eat some now.\n' + ' I also like dogs, but not cats because they are too lazy.\n' + ' Can you feed my dog with a hamburger?')
 
 
 def main():
 
-    trainThreads, trainFiles = readFiles('EmailSummarizationKeywordExtraction/CorporateSingleXML/')
-    testThreads, testFiles = readFiles('EmailSummarizationKeywordExtraction/smallTest/')
+    trainDir = 'EmailSummarizationKeywordExtraction/CorporateSingleXML/'
+    testDir = 'EmailSummarizationKeywordExtraction/smallTest/'
     
-    rake = extractKeywords.Rake(metric = extractKeywords.Metric.DEGREE_AND_FREQUENCY)
-    topicmodel = ModelGenerator(trainThreads)
+    em = interface.ExtractManager(trainDir, testDir)
+    keywords1 = em.extract_keywords()
+    print(keywords1)
 
-
-    for idx, thread in enumerate(testThreads):
-        #print(topics)
-        #print(thread)
-        topics = topicmodel.get_topic_list(thread)
-        # print(thread)
-        # print('------------------------------------------')
-
-        thread_keywords = []
-        for email in thread:
-            rake.extract_keywords(email)
-            words = rake.get_balanced_score()
-            thread_keywords.append(words)
-            #print('------------------------------------------')
-            #print(files[idx])
-            #print(email)
-            #print(words)
-            #print('------------------------------------------')
-        
-        print(thread_keywords)
-        print('------------------------------------------')
-
-        for top in topics:
-            # print(top)
-            topic_words = topicmodel.get_topics()[top[0]][1]
-            #select_keywords_related(thread_keywords, topic_words)
+    keywords2 = em.extract_keywords(threads = test_input_thread, keyword_number = 3)
+    print(keywords2)
 
 
 if __name__ == '__main__':
