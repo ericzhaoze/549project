@@ -24,7 +24,7 @@ class ModelGenerator(object):
         self.stopwords = nltk.corpus.stopwords.words('english')
         self.punctuations = string.punctuation
         self.ignore = set(chain(self.stopwords, self.punctuations))
-        self.lsimodel = None
+        self.model = None
         self.dictionary = None
         self.topics = None
         self.data = None

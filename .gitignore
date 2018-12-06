@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+corpus.pkl
+dictionary.gensim
+model10.*
