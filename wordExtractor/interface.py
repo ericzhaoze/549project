@@ -49,7 +49,15 @@ class ExtractManager(object):
 
         newdict = {}
         for key in list(outputdict.keys()):
-            newdict[key] = float(outputdict[key] / dsum) * 40.0 + 20.0
+            newdict[key] = float(outputdict[key] / dsum)
+
+        max_weight = float(newdict[outputlist[0]])
+        min_weight = float(newdict[outputlist[len(outputlist) - 1]])
+
+        for key in list(outputdict.keys()):
+            newweight = (newdict[key] - min_weight) / (max_weight - min_weight) * 40.0 + 20
+            newdict[key] = newweight
+
 
         return newdict
 

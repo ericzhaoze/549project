@@ -126,9 +126,7 @@ class Rake(object):
         groups = groupby(words, lambda x : x not in self.ignore)
         phrases = [tuple(group[1]) for group in groups if group[0]]
         return list(
-            filter(
-                lambda x: len(x) <= self.maxlength, phrases
-            )
+            filter(lambda x: len(x) <= self.maxlength and len(x.split()) <= self.maxwords, phrases)
         )
 
         return phrases
