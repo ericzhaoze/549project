@@ -7,15 +7,15 @@ from collections import Counter
 
 
 class ExtractManager(object):
-    def __init__(self, trainDir, testDir):
+    def __init__(self, trainDir, testDir, model):
         trainThreads, trainFiles = readFiles(trainDir)
         testThreads, testFiles = readFiles(testDir)
 
         # Load pre-trained model
-        print("Loading pretrained model...")
+        # print("Loading pretrained model...")
         # model = {}
-        self.model = api.load("glove-twitter-25")
-        print("Model loaded.")
+        self.model = model
+        # print("Model loaded.")
 
         tests = []
         for thread in testThreads:
@@ -36,20 +36,27 @@ class ExtractManager(object):
             string += line
         return string
 
-    def normalize_dictionary_values(self, ouputdict):
+    def normalize_dictionary_values(self, outputlist):
+        #print(outputlist)
         dsum = 0.0
-        for key in list(ouputdict.keys()):
-            dsum += ouputdict[key]
+        outputdict = {}
+
+        for item in outputlist:
+            outputdict[item[0]] = item[1]
+
+        for key in list(outputdict.keys()):
+            dsum += outputdict[key]
 
         newdict = {}
-        for key in list(ouputdict.keys()):
-            newdict[key] = float(ouputdict[key] / dsum) * 90.0 + 10.0
+        for key in list(outputdict.keys()):
+            newdict[key] = float(outputdict[key] / dsum) * 40.0 + 20.0
 
         return newdict
 
 
-    def output_serializer(self, ouputdict):
-        newdict = self.normalize_dictionary_values(ouputdict)
+    def output_serializer(self, outputdict):
+        print(outputdict)
+        newdict = self.normalize_dictionary_values(outputdict)
         string = '['
         for key in list(newdict.keys()):
             string += '{\"text\":\"'

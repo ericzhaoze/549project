@@ -3,3 +3,4 @@ corpus.pkl
 dictionary.gensim
 model10.*
 __pycache__/
+*/env/

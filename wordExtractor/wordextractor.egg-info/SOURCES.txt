@@ -1,0 +1,8 @@
+wordextractor/__init__.py
+wordextractor/config.py
+wordextractor/model.py
+wordextractor.egg-info/PKG-INFO
+wordextractor.egg-info/SOURCES.txt
+wordextractor.egg-info/dependency_links.txt
+wordextractor.egg-info/requires.txt
+wordextractor.egg-info/top_level.txt
