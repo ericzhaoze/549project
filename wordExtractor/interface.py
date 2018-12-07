@@ -4,10 +4,12 @@ from topicModeling import ModelGenerator
 from select_keywords_related import select_keywords_related
 import gensim.downloader as api
 from collections import Counter
+import string
+import math
 
 
 class ExtractManager(object):
-    def __init__(self, trainDir, testDir, model):
+    def __init__(self, trainDir, testDir, model, max_length = 5):
         trainThreads, trainFiles = readFiles(trainDir)
         testThreads, testFiles = readFiles(testDir)
 
@@ -22,7 +24,7 @@ class ExtractManager(object):
             tests.append(self.concat_thread(thread))
 
 
-        rake = extractKeywords.Rake(metric = extractKeywords.Metric.DEGREE_AND_FREQUENCY)
+        rake = extractKeywords.Rake(max_length = max_length, metric = extractKeywords.Metric.DEGREE_AND_FREQUENCY)
         topicmodel = ModelGenerator(trainThreads)
 
         self.rake = rake
@@ -51,11 +53,13 @@ class ExtractManager(object):
         for key in list(outputdict.keys()):
             newdict[key] = float(outputdict[key] / dsum)
 
-        max_weight = float(newdict[outputlist[0]])
-        min_weight = float(newdict[outputlist[len(outputlist) - 1]])
-
-        for key in list(outputdict.keys()):
-            newweight = (newdict[key] - min_weight) / (max_weight - min_weight) * 40.0 + 20
+        '''
+        max_weight = float(newdict[outputlist[0][0]])
+        min_weight = float(newdict[outputlist[len(outputlist) - 1][0]])
+        '''
+        for idx, key in enumerate(list(outputdict.keys())):
+            #newweight = (newdict[key] - min_weight) / (max_weight - min_weight) * 40.0 + 20
+            newweight = 40.0 * math.pow(((len(outputdict) - idx) / len(outputdict)), 3) + 20.0
             newdict[key] = newweight
 
 
@@ -68,7 +72,9 @@ class ExtractManager(object):
         string = '['
         for key in list(newdict.keys()):
             string += '{\"text\":\"'
-            string += str(key)
+            newkey = str(key).replace("\'","")
+            newkey = str(newkey).replace("\"","")
+            string += newkey
             string += '\",\"size\":'
             string += str(newdict[key])
             string += '},'

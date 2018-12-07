@@ -16,13 +16,13 @@ class Metric(Enum):
     POSITIVE_DOCUMENT_FREQUENCY = 3
 
 class Rake(object):
-    def __init__(self, maxlength = 30, language='english', metric = Metric.DEGREE_AND_FREQUENCY):
+    def __init__(self, max_length = 5, language='english', metric = Metric.DEGREE_AND_FREQUENCY):
         #parameters
         self.metric = metric
         self.stopwords = nltk.corpus.stopwords.words(language)
         self.punctuations = string.punctuation
         self.ignore = set(chain(self.stopwords, self.punctuations))
-        self.maxlength = maxlength
+        self.max_length = max_length
 
 
         #results
@@ -122,11 +122,20 @@ class Rake(object):
         return phrases
 
 
+    def get_tuple_len(self, x):
+        length = 0
+        for i in x:
+            length += len(i)
+        return length
+
+
     def generate_phrase_from_words(self, words):
         groups = groupby(words, lambda x : x not in self.ignore)
         phrases = [tuple(group[1]) for group in groups if group[0]]
+        print(phrases)
+        print('############')
         return list(
-            filter(lambda x: len(x) <= self.maxlength and len(x.split()) <= self.maxwords, phrases)
+            filter(lambda x: len(x) <= self.max_length and self.get_tuple_len(x) <= 30, phrases)
         )
 
         return phrases

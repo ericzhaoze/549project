@@ -115,24 +115,24 @@ generate({{listword}}, {{type}});
     
   </div>
 </div>
-<div style="text-align: right">
   <div class="layui-form-item">
-    <div class="layui-inline">
-      <label class="layui-form-label">Topic</label>
-      <div class="layui-input-inline">
-        <input type="tel" name="topic" class="layui-input" value = "{{mytopic}}" placeholder="None">
-      </div>
+    <label class="layui-form-label">Topic</label>
+    <div class="layui-input-inline">
+      <input type="text" name="topic" placeholder="None" value = "{{mytopic}}" autocomplete="off" class="layui-input">
     </div>
-    <div class="layui-inline">
-      <label class="layui-form-label">#Words</label>
-      <div class="layui-input-inline">
-        <input type="tel" name="wordcount" class="layui-input" value = "{{wordcount}}" placeholder="5">
-      </div>
+        <label class="layui-form-label">#Words</label>
+    <div class="layui-input-inline">
+      <input type="text" name="wordcount" placeholder="30" value = "{{wordcount}}" autocomplete="off" class="layui-input">
     </div>
-    <button type="reset" class="layui-btn layui-btn-primary">Reset</button>
-    <button id="go" class="layui-btn" type="submit">Generate</button>
+        <label class="layui-form-label">Max Length</label>
+    <div class="layui-input-inline">
+      <input type="text" name="maxlength" placeholder="1" value = "{{maxlength}}" autocomplete="off" class="layui-input">
+    </div>
   </div>
 
+<div style="text-align: center">
+      <button type="reset" class="layui-btn layui-btn-primary">Reset</button>
+    <button id="go" class="layui-btn" type="submit">Generate</button>
 <div>
 
 
